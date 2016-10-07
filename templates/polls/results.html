@@ -7,7 +7,7 @@
 <li>result</li>
 {% endblock %}
 {% block content %}
-<div class='col-sm-6 col-sm-offset-3'>
+<div class='col-sm-12'>
   <h1>{{ question.question_text }}</h1>
 
   <a href="{% url 'polls:detail' question.id %}">Vote again?</a>

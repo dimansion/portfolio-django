@@ -28,13 +28,14 @@
 
 
 {% include "blog/messages_display.html" %}
-<div class='container'> 
+<div class='container-fluid'> 
     <ol class='breadcrumb'>
         <li><a href='/'>Home</a></li>
         {% block post_detail_link %}
         {% endblock %}
 
     </ol>
+
 {% block content %}{% endblock content %}
 </div>
 

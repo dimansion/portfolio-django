@@ -1,10 +1,10 @@
 {% extends "blog/base.html" %}
 {% block post_detail_link %}
-  <li><a href='{% url "polls:index" %}'>Polls</a></li>
+  <li><a href='{% url "blog:list" %}'>Blog</a></li>
 {% endblock %}
 {% block content %}
 
-<div class='col-sm-6 col-sm-offset-3'>
+<div class='col-sm-12'>
     <h1>{{ title }}</h1>
 <form method='GET' action='' class='row'>
         <div class='col-sm-6'>
