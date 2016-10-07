@@ -1,0 +1,32 @@
+{% extends "blog/base.html" %}
+{% block head_title %}Polls{% endblock head_title %}
+{% block post_detail_link %}
+  <li><a href='{% url "polls:index" %}'>Polls</a></li>
+{% endblock %}
+{% block content %}
+<div class='col-sm-6 col-sm-offset-3'>
+	<h1>Polls</h1>
+	<hr>
+	{% if latest_question_list %}
+	    <ul>
+	    {% for question in latest_question_list %}
+	        <div class="media">
+			  <div class="media-left media-middle">
+			    <a href="{% url 'polls:detail' question.id %}">
+			      <!-- <img class="media-object" src="..." alt="..."> -->
+			    </a>
+			  </div>
+			  <div class="media-body">
+			  	<a href="{% url 'polls:detail' question.id %}">
+			      <h4 class="media-heading">{{ question.question_text }}</h4>
+			    </a>			   
+			    <p>available until : {{ question.until }}</p>
+			  </div>
+			</div>
+	    {% endfor %}
+	    </ul>
+	{% else %}
+	    <p>No polls are available.</p>
+	{% endif %}
+</div>
+{% endblock content %}

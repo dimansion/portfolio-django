@@ -1,0 +1,71 @@
+{% extends "blog/base.html" %}
+{% block head_title %}Result | {{ question.question_text }}{% endblock head_title %}
+
+{% block post_detail_link %}
+<li><a href='{% url "polls:index" %}'>Polls</a></li>
+<li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+<li>result</li>
+{% endblock %}
+{% block content %}
+<div class='col-sm-6 col-sm-offset-3'>
+  <h1>{{ question.question_text }}</h1>
+
+  <a href="{% url 'polls:detail' question.id %}">Vote again?</a>
+
+
+  <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+  <table id="datatable" class="table table-hover">
+      <thead>
+          <tr>
+              <th></th>
+              <th>Votes</th>
+
+          </tr>
+      </thead>
+      <tbody>
+        {% for choice in question.choice_set.all %}
+          <tr>
+              <th>{{ choice.choice_text }}</th>
+              <td>{{ choice.votes }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+  </table>
+</div>
+
+
+{% endblock content %}	
+
+{% block script_extra %} 
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script>
+    $(function () {
+    $('#container').highcharts({
+        data: {
+            table: 'datatable'
+        },
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Result'
+        },
+        yAxis: {
+            allowDecimals: false,
+            title: {
+                text: 'Units'
+            }
+        },
+        tooltip: {
+            formatter: function () {
+                return '<b>' + this.series.name + '</b><br/>' +
+                    this.point.y + ' ' + this.point.name.toLowerCase();
+            }
+        }
+    });
+});
+</script>
+{% endblock script_extra %}

@@ -1,0 +1,61 @@
+{% extends "blog/base.html" %}
+{% load static %}
+
+{% block head_title %}Gallery{% endblock head_title %}
+{% block post_detail_link %}
+  <li><a href='{% url "gallery:photo_list" %}'>Gallery</a></li>
+{% endblock %}
+
+
+{% block content %}
+		<div class="container">
+			<header class="clearfix">
+				<h1>Gallery</h1>
+			</header>
+			<div id="grid-gallery" class="grid-gallery">
+				<section class="grid-wrap">
+					<ul class="grid">
+						<li class="grid-sizer"></li><!-- for Masonry column width -->
+						{% for pic in pictures %}
+						<li>
+							<figure>
+								<img src="{{ pic.image.url }}" alt="{{ pic.name }}"/>
+								<figcaption><h3>{{ pic.name }}</h3></p></figcaption>
+							</figure>
+						</li>
+						{% endfor %}
+					</ul>
+				</section><!-- // grid-wrap -->
+
+				<section class="slideshow">
+					<ul>
+						{% for pic in pictures %}
+						<li>
+							<figure>
+								<figcaption>
+									<h3>{{ pic.name }}</h3>
+								</figcaption>
+								<img src="{{ pic.image.url }}" class="img-responsive" alt="{{ pic.name }}"/>
+							</figure>
+						</li>
+						{% endfor %}						
+					</ul>
+					<nav>
+						<span class="icon nav-prev"></span>
+						<span class="icon nav-next"></span>
+						<span class="icon nav-close"></span>
+					</nav>
+					<div class="info-keys icon">Navigate with arrow keys</div>
+				</section>
+			</div><!-- // grid-gallery -->
+		</div>
+{% endblock content %}		
+{% block script_extra %}
+		<script src="{% static 'js/imagesloaded.pkgd.min.js'%}"></script>
+		<script src="{% static 'js/masonry.pkgd.min.js'%}"></script>
+		<script src="{% static 'js/classie.js'%}"></script>
+		<script src="{% static 'js/cbpGridGallery.js'%}"></script>
+		<script>
+			new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+		</script>
+{% endblock script_extra %}

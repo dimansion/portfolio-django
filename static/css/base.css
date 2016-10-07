@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+body {
+	background-color: #fff;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+h1, h3 {
+	color: #4CBFF4;
+}
+.article, .post-detail-item {
+	color: #000
+}
+
+.pagination {
+	color: #777
+}
+.wmd-panel{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.table-todo {
+	color: #000;
+}

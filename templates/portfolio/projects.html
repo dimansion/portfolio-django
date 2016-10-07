@@ -1,0 +1,20 @@
+{% extends "portfolio/base.html" %}
+
+{% block project %}
+<header class="bp-header cf">
+	<h1 class="bp-header__title">Projects</h1>
+	<h4 class="bp-header__desc">Some stuff i've made and workin on</h4>
+</header>
+<div class="main">
+<ul id="og-grid" class="og-grid">
+	{% for project in projects %}
+	<li>
+		<a href="{{ project.url }}" data-largesrc="{{ project.image.url }}" data-title="{{ project.title }}" data-description="{{ project.description }}">
+			<img src="{{ project.image.url }}" class="img-rounded" height=250 width=250 alt="{{ project.title }}"/>
+		</a>
+	</li>
+	{% endfor %}
+</ul>
+</div>	
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "blog/base.html" %}
+{% block head_title %}Polls | {{ question.question_text }}{% endblock head_title %}
+{% block post_detail_link %}
+<li><a href='{% url "polls:index" %}'>Polls</a></li>
+<li>{{ question.question_text }}</li>
+{% endblock %}
+
+{% block content %}
+{% if question.pub_date >= question.until %}<p class="text-danger">sorry, this session is expired.</p> <a class="text-info" href='{% url "polls:index" %}'>Go back</a>{% else %}
+<div class='col-sm-6 col-sm-offset-3'>
+	<h1>{{ question.question_text }}</h1>
+
+	{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+	<form action="{% url 'polls:vote' question.id %}" method="post">
+	{% csrf_token %}
+	{% for choice in question.choice_set.all %}
+	    <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}" />
+	    <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br />
+	    {% if choice.image %}
+	    <img src="{{ choice.image.url }}" class="img-responsive" alt="{{ choice.choice_text }}">
+	    {% endif %}
+	{% endfor %}
+	<input type="submit" class="btn btn-primary" value="Vote" />
+	</form>
+</div>
+{% endif %}
+{% endblock content %}	
