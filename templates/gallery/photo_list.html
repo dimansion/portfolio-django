@@ -2,8 +2,14 @@
 {% load static %}
 
 {% block head_title %}Gallery{% endblock head_title %}
+
+{% block head_extra %} 
+<link rel='stylesheet' href='{% static "css/demo-gallery.css" %}' />
+<link rel='stylesheet' href='{% static "css/gallery.css" %}' />
+<script src="{% static 'js/modernizr-custom.js'%}"></script>
+{% endblock head_extra %}
 {% block post_detail_link %}
-  <li><a href='{% url "gallery:photo_list" %}'>Gallery</a></li>
+<li><a href='{% url "gallery:photo_list" %}'>Gallery</a></li>
 {% endblock %}
 
 
