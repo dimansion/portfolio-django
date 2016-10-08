@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'markdown_deux',
     'pagedown',
-    'bootstrap3_datetime',
+    # 'bootstrap3_datetime',
     # 'rest_framework',
 
     # local apps
