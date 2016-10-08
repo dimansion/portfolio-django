@@ -3,7 +3,7 @@
   <li><a href='{% url "polls:index" %}'>Polls</a></li>
 {% endblock %}
 {% block content %}
-<div class='col-sm-12'>
+<div class='col-sm-6 col-sm-offset-3'>
 	<h1>Polls</h1>
 	<hr>
 	{% if latest_question_list %}

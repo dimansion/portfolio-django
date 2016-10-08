@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"da",
+				"datetimepicker4"
+			],
+			[
+				"tr",
+				"True"
+			],
+			[
 				"p",
 				"Picture"
 			],
@@ -506,35 +514,51 @@
 			[
 				"is_",
 				"is_authenticated"
-			],
-			[
-				"updat",
-				"updateCartItemCount〔function〕"
-			],
-			[
-				"em",
-				"empty"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/home/dimansion/django project/eas/static/assets/js/scripts.min.js",
+			"file": "djangoproject/settings.py",
 			"settings":
 			{
-				"buffer_size": 3393,
+				"buffer_size": 3704,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\n{% load staticfiles %}\n	<head>\n\n		<title>Gallery | Eka Ade Saputra</title>\n		<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" />\n		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">\n\n		<link href=\"{% static 'assets/css/supersized.css' %}\" rel=\"stylesheet\">\n		<link rel=\"icon\" href=\"{% static 'assets/images/fullscreen-gallery/eas.png' %}\" type=\"image/png\" >\n		\n		<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js\"></script>\n		<script type=\"text/javascript\" src=\"{% static 'assets/js/extras.js' %}\"></script>\n		<script type=\"text/javascript\" src=\"{% static 'assets/js/scripts.min.js' %}\"></script>\n\n		\n		\n	</head>\n\n\n<body>\n\n	<div class=\"back-to-app-bar\">\n		<a href=\"/\"><img src=\"{% static 'assets/images/fullscreen-gallery/eas-logo.png' %}\" alt=\"EAS\" height='30px' width='65px' /></a>\n	</div>\n\n	<div class=\"swipe-target\"></div><!-- target for swipe -->\n\n	<!-- image files -->\n	<ul class=\"full-screen-gallery-images\">\n		{% for post in posts %}\n		{% if post.image %}\n		<li data-thumbnail=\"{{ MEDIA_URL }}{{ post.image.url }}\" data-caption=\"{{ post.name }}\"><img src=\"{{ MEDIA_URL }}{{ post.image.url }}\"></li>\n		{% endif %}\n		{% endfor %}	\n	</ul>\n<script>\n	var $imageDataWrap = $('.full-screen-gallery-images'),\n						$images = $imageDataWrap.find('li'),\n						$slides = [];\n\n						$images.each(function(){\n							var dataThumbNail = $(this).data('thumbnail'),\n								dataCaption = $(this).data('caption'),\n								dataImage = $(this).find('img').attr('src');\n								//console.log('thumb: '+dataThumbNail);\n								//console.log('caption: '+dataCaption);\n								//console.log('large image: '+dataImage);\n\n								$slides.push(\n									image : dataImage,\n									title : dataCaption,\n									thumb : dataThumbNail\n								);\n</script>\n	<!--Thumbnail Navigation-->\n	<div id=\"prevthumb\"></div>\n	<div id=\"nextthumb\"></div>\n	\n	<!--Arrow Navigation-->\n	<a id=\"prevslide\" class=\"load-item\"></a>\n	<a id=\"nextslide\" class=\"load-item\"></a>\n	\n	<div id=\"thumb-tray\" class=\"load-item\">\n		<div id=\"thumb-back\"></div>\n		<div id=\"thumb-forward\"></div>\n	</div>\n	\n	<!--Time Bar-->\n	<div id=\"progress-back\" class=\"load-item\">\n		<div id=\"progress-bar\"></div>\n	</div>\n	\n	<!--Control Bar-->\n	<div id=\"controls-wrapper\" class=\"load-item\">\n		<div id=\"controls\">\n			\n			<a id=\"play-button\"><img id=\"pauseplay\" src=\"{% static 'assets/images/fullscreen-gallery/pause.png' %}\"/></a>\n		\n			<!--Slide counter-->\n			<div id=\"slidecounter\">\n				<span class=\"slidenumber\"></span> / <span class=\"totalslides\"></span>\n			</div>\n			\n			<!--Slide captions displayed here-->\n			<div id=\"slidecaption\"></div>\n			\n			<!--Thumb Tray button-->\n			<a id=\"tray-button\"><img id=\"tray-arrow\" src=\"{% static 'assets/images/fullscreen-gallery/button-tray-up.png' %}\"/></a>\n			\n			<!--Navigation-->\n			<ul id=\"slide-list\"></ul>\n			\n		</div>\n	</div>\n\n</body>\n</html>\n",
-			"file": "/home/dimansion/django project/eas/templates/photo/post_list.html",
-			"file_size": 2455,
-			"file_write_time": 1474665645000000,
+			"file": "todo/forms.py",
 			"settings":
 			{
-				"buffer_size": 3047,
+				"buffer_size": 455,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/todo/schedule_list.html",
+			"settings":
+			{
+				"buffer_size": 1712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    {% load staticfiles %}\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"\">\n    {% if post.published_date %}\n    <title>{{ post.title }} | Dimansion's Blog</title>\n    {% else %}\n    <title>Dimansion's Blog</title>\n    {% endif %}\n    <link rel=\"icon\" type=\"image/png\" href=\"/static/images/FACE.png\" sizes=\"16x16\">\n\n    <!-- Bootstrap Core CSS -->\n    <link href=\"{% static 'assets/css/bootstrap.min.css' %}\" rel=\"stylesheet\">\n\n    <!-- Custom CSS -->\n    <link href=\"{% static 'assets/css/clean-blog.min.css' %}\" rel=\"stylesheet\">\n\n    <!-- Custom Fonts -->\n    <link href=\"http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>\n    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>\n    <link href='https://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>\n\n    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->\n    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->\n    <!--[if lt IE 9]>\n        <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>\n        <script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n\n</head>\n\n<body>\n\n    <!-- Navigation -->\n    <nav class=\"navbar navbar-default navbar-custom navbar-fixed-top\">\n        <div class=\"container-fluid\">\n            <!-- Brand and toggle get grouped for better mobile display -->\n            <div class=\"navbar-header page-scroll\">\n                <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n                    <span class=\"sr-only\">Toggle navigation</span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                </button>\n                <a class=\"navbar-brand\" href=\"/blog\">Dimansion's Blog</a>\n            </div>\n\n            <!-- Collect the nav links, forms, and other content for toggling -->\n            <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n                <ul class=\"nav navbar-nav navbar-right\">\n                    <li>\n                        <a href=\"/portofolio\"><span class=\"glyphicon glyphicon-home\"></span></a>\n                    </li>\n                </ul>\n            </div>\n            <!-- /.navbar-collapse -->\n        </div>\n        <!-- /.container -->\n    </nav>\n    \n    <div class=\"container\">\n        <div class=\"page-header\">\n            \n        </div>\n    </div>\n\n    <div class=\"content container\">\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                {% block content %} {% endblock %}\n            </div>\n        </div>\n    </div>\n\n\n    <!-- Footer -->\n    <footer>\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">\n                    <p class=\"copyright text-muted\"> &copy; Dimas Suardi Putra</p>\n                </div>\n            </div>\n        </div>\n    </footer>\n\n    <!-- jQuery -->\n    <script src=\"{% static 'assets/js/jquery.js' %}\"></script>\n\n    <!-- Bootstrap Core JavaScript -->\n    <script src=\"{% static 'assets/js/bootstrap.min.js' %}\"></script>\n\n    <!-- Custom Theme JavaScript -->\n    <script src=\"{% static 'assets/js/clean-blog.min.js' %}\"></script>\n\n</body>\n\n</html>",
+			"file": "/home/dimansion/django project/mywebsite/dango/templates/blog/base.html",
+			"file_size": 3901,
+			"file_write_time": 1473091532000000,
+			"settings":
+			{
+				"buffer_size": 3901,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "todo/views.py",
+			"settings":
+			{
+				"buffer_size": 732,
 				"line_ending": "Unix"
 			}
 		}
@@ -591,19 +615,24 @@
 	},
 	"file_history":
 	[
-		"/home/dimansion/my-website-project/polls/models.py",
+		"/home/dimansion/django project/eas/static/assets/js/scripts.min.js",
 		"/home/dimansion/my-website-project/templates/polls/results.html",
+		"/home/dimansion/django project/eas/templates/photo/post_list.html",
 		"/home/dimansion/my-website-project/templates/polls/detail.html",
-		"/home/dimansion/my-website-project/templates/blog/post_list.html",
+		"/home/dimansion/my-website-project/polls/models.py",
+		"/home/dimansion/my-website-project/polls/admin.py",
 		"/home/dimansion/my-website-project/templates/polls/index.html",
+		"/home/dimansion/Desktop/test.html",
+		"/home/dimansion/my-website-project/templates/blog/post_list.html",
+		"/home/dimansion/my-website-project/templates/blog/base.html",
+		"/home/dimansion/my-website-project/templates/blog/post_detail.html",
+		"/home/dimansion/my-website-project/templates/gallery/photo_list.html",
+		"/home/dimansion/my-website-project/templates/todo/schedule_list.html",
 		"/home/dimansion/my-website-project/polls/urls.py",
 		"/home/dimansion/my-website-project/polls/views.py",
 		"/home/dimansion/my-website-project/templates/polls/result.html",
-		"/home/dimansion/my-website-project/polls/admin.py",
 		"/home/dimansion/bepy/blog/models.py",
 		"/home/dimansion/my-website-project/djangoproject/settings.py",
-		"/home/dimansion/my-website-project/templates/gallery/photo_list.html",
-		"/home/dimansion/my-website-project/templates/blog/base.html",
 		"/home/dimansion/my-website-project/djangoproject/urls.py",
 		"/home/dimansion/my-website-project/gallery/models.py",
 		"/home/dimansion/my-website-project/static/css/gallery.css",
@@ -611,7 +640,6 @@
 		"/home/dimansion/my-website-project/static/css/base.css",
 		"/home/dimansion/my-website-project/static/css/component.css",
 		"/home/dimansion/my-website-project/templates/portfolio/base.html",
-		"/home/dimansion/my-website-project/templates/todo/schedule_list.html",
 		"/home/dimansion/my-website-project/static/css/demo.css",
 		"/home/dimansion/Desktop/GridGallery/index.html",
 		"/home/dimansion/my-website-project/gallery/urls.py",
@@ -621,7 +649,6 @@
 		"/home/dimansion/my-website-project/todo/views.py",
 		"/home/dimansion/my-website-project/todo/models.py",
 		"/home/dimansion/my-website-project/templates/todo/list.html",
-		"/home/dimansion/my-website-project/templates/blog/post_detail.html",
 		"/home/dimansion/my-website-project/todo/forms.py",
 		"/home/dimansion/my-website-project/blog/views.py",
 		"/home/dimansion/my-website-project/blog/models.py",
@@ -715,10 +742,7 @@
 		"/Users/jmitch/Desktop/dm/src/digitalmarket/urls.py",
 		"/Users/jmitch/Desktop/dm/src/sellers/views.py",
 		"/Users/jmitch/Desktop/dm/src/checkout/views.py",
-		"/Users/jmitch/Desktop/dm.md",
-		"/Users/jmitch/Desktop/dm/src/digitalmarket/settings.py",
-		"/Users/jmitch/Desktop/dm/LICENSE",
-		"/Users/jmitch/Desktop/dm/src/templates/sellers/dashboard.html"
+		"/Users/jmitch/Desktop/dm.md"
 	],
 	"find":
 	{
@@ -746,6 +770,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">    ",
+			">\n",
+			"back",
 			"}}{%",
 			"<li>\n							<figure>\n								<figcaption>\n									<h3>Letterpress asymmetrical</h3>\n									<p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>\n								</figcaption>\n								<img src=\"img/large/1.png\" alt=\"img01\"/>\n							</figure>\n						</li>",
 			"grid",
@@ -870,10 +897,7 @@
 			"results",
 			"cleaned_email",
 			"class=\"fa fa-check\"",
-			"You are already logged in",
-			"pricing",
-			"login",
-			"PasswordResetForm"
+			"You are already logged in"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -907,59 +931,141 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/dimansion/django project/eas/static/assets/js/scripts.min.js",
+					"file": "djangoproject/settings.py",
 					"settings":
 					{
-						"buffer_size": 3393,
+						"buffer_size": 3704,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								574,
-								574
+								1172,
+								1172
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 90.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 483.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/home/dimansion/django project/eas/templates/photo/post_list.html",
+					"file": "todo/forms.py",
 					"settings":
 					{
-						"buffer_size": 3047,
+						"buffer_size": 455,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								519,
-								519
+								293,
+								293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/todo/schedule_list.html",
+					"settings":
+					{
+						"buffer_size": 1712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1646,
+								1646
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1863.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/dimansion/django project/mywebsite/dango/templates/blog/base.html",
+					"settings":
+					{
+						"buffer_size": 3901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4600.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "todo/views.py",
+					"settings":
+					{
+						"buffer_size": 732,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								367
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 228.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

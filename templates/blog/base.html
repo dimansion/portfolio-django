@@ -4,15 +4,12 @@
 <head>
 <title>{% block head_title %}Blog{% endblock head_title %}</title>
 <!-- Latest compiled and minified CSS -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="/static/images/FACE.png" sizes="16x16">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-<link rel="stylesheet" type="text/css" href="{% static 'css/demo-gallery.css'%}" />
-<link rel="stylesheet" type="text/css" href="{% static 'css/gallery.css'%}" />
-<script src="{% static 'js/modernizr-custom.js'%}"></script>
-    
 
 {% block head_extra %} {% endblock head_extra %}
 
@@ -28,7 +25,7 @@
 
 
 {% include "blog/messages_display.html" %}
-<div class='container-fluid'> 
+<div class='container'> 
     <ol class='breadcrumb'>
         <li><a href='/'>Home</a></li>
         {% block post_detail_link %}

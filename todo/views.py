@@ -10,6 +10,7 @@ def list_jadwal(request):
 		form = JadwalForm(request.POST)
 		if form.is_valid():
 			post = form.save(commit=False)
+			post.waktu.strftime("%d/%m/%y %H:%M") 
 			post.save()
 		return redirect('todo:list_jadwal')
 	else:

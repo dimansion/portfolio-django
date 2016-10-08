@@ -7,7 +7,7 @@
 
 {% block content %}
 {% if question.pub_date >= question.until %}<p class="text-danger">sorry, this session is expired.</p> <a class="text-info" href='{% url "polls:index" %}'>Go back</a>{% else %}
-<div class='col-sm-12'>
+<div class='col-sm-6 col-sm-offset-3'>
 	<h1>{{ question.question_text }}</h1>
 
 	{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
