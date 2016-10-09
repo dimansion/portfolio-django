@@ -20,10 +20,10 @@
                 {% endfor %}
             </div>
             {% else %}
-                <strong>Tidak ada post pada kategori ini.</strong>
+                <strong>No book on this category yet.</strong>
             {% endif %}
         {% else %}
-            Kategori dengan nama {{ category_name }} tidak tersedia!
+            {{ category_name }} not available!
         {% endif %}
 
 {% endblock %}
