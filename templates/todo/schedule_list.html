@@ -6,11 +6,9 @@
 <script   src="http://code.jquery.com/jquery-1.12.2.min.js"   integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="   crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.43/css/bootstrap-datetimepicker.min.css"> 
-{{ form.media }}
+
 {% endblock head_extra %} 
-{% block post_detail_link %}
-  <li><a href='{% url "todo:list_jadwal" %}'>To do</a></li>
-{% endblock %}
+{% block post_detail_link %}<li><a href='{% url "todo:list_jadwal" %}'>To do</a></li>{% endblock %}
 {% block content %}
 <div class='col-sm-6 col-sm-offset-3 table-todo'>
 	<h1>To do</h1>
@@ -46,7 +44,9 @@
 
 <script type="text/javascript">
     $(function () {
-        $('#id_waktu').datetimepicker();
+        $('#id_waktu').datetimepicker({
+        	format : "YYYY-MM-DD HH:mm",
+        });  
     });
 </script>
 {% endblock script_extra %}

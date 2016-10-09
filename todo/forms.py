@@ -9,9 +9,3 @@ class JadwalForm(forms.ModelForm):
 			'kegiatan',
 			'waktu',
 		)
-
-	
-	# def __init__(self, *args, **kwargs):
-	# 	super(JadwalForm, self).__init__(*args, **kwargs)
-	# 	self.fields['waktu'].widget.attrs['id'] = 'datetimepicker4'
-	# 

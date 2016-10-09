@@ -8,13 +8,8 @@
 {% endblock head_title %}
 
 
-{% block post_detail_link %}
-
-<li><a href='{% url "blog:list" %}'>Blog</a></li>
-<li><a href='{{ instance.get_absolute_url }}'>{{ instance.title }}</a></li>
-{% endblock %}
-
-
+{% block post_detail_link %}<li><a href='{% url "blog:list" %}'>Blog</a></li>
+<li><a href='{{ instance.get_absolute_url }}'>{{ instance.title }}</a></li>{% endblock %}
 
 {% block content %}
 <div class='col-sm-6 col-sm-offset-3'>
@@ -38,27 +33,6 @@
 <hr/>
 </p>
 
-
-
-<!-- <p>
-<a href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}">
-Facebook
-</a>
-
-<a href="https://twitter.com/home?status={{ instance.content|truncatechars:80|urlify }}%20{{ request.build_absolute_uri }}">
-Twitter
-</a>
-
-<a href='https://plus.google.com/share?url={{ request.build_absolute_uri }}'>
-
-
-<a href="https://www.linkedin.com/shareArticle?mini=true&url={{ request.build_absolute_uri }}&title={{ instance.title }}&summary={{ share_string }}&source={{ request.build_absolute_uri }}">
-Linkedin
-</a>
-
-<a href="http://www.reddit.com/submit?url={{ request.build_absolute_uri }}&title={{ share_string }}.">Reddit</a>
-
-</p> -->
 <div class='row'>
 <div class='col-sm-12 '>
 
