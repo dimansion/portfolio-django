@@ -520,45 +520,66 @@
 	"buffers":
 	[
 		{
+			"file": "library/models.py",
+			"settings":
+			{
+				"buffer_size": 1571,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "djangoproject/urls.py",
+			"settings":
+			{
+				"buffer_size": 911,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/urls.py",
+			"settings":
+			{
+				"buffer_size": 549,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/views.py",
+			"settings":
+			{
+				"buffer_size": 3171,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/forms.py",
+			"settings":
+			{
+				"buffer_size": 421,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "djangoproject/settings.py",
 			"settings":
 			{
-				"buffer_size": 3704,
+				"buffer_size": 3721,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "todo/forms.py",
+			"file": "library/admin.py",
 			"settings":
 			{
-				"buffer_size": 455,
+				"buffer_size": 404,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/todo/schedule_list.html",
+			"file": "templates/library/post_list.html",
 			"settings":
 			{
-				"buffer_size": 1712,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    {% load staticfiles %}\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"\">\n    {% if post.published_date %}\n    <title>{{ post.title }} | Dimansion's Blog</title>\n    {% else %}\n    <title>Dimansion's Blog</title>\n    {% endif %}\n    <link rel=\"icon\" type=\"image/png\" href=\"/static/images/FACE.png\" sizes=\"16x16\">\n\n    <!-- Bootstrap Core CSS -->\n    <link href=\"{% static 'assets/css/bootstrap.min.css' %}\" rel=\"stylesheet\">\n\n    <!-- Custom CSS -->\n    <link href=\"{% static 'assets/css/clean-blog.min.css' %}\" rel=\"stylesheet\">\n\n    <!-- Custom Fonts -->\n    <link href=\"http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>\n    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>\n    <link href='https://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>\n\n    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->\n    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->\n    <!--[if lt IE 9]>\n        <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>\n        <script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n\n</head>\n\n<body>\n\n    <!-- Navigation -->\n    <nav class=\"navbar navbar-default navbar-custom navbar-fixed-top\">\n        <div class=\"container-fluid\">\n            <!-- Brand and toggle get grouped for better mobile display -->\n            <div class=\"navbar-header page-scroll\">\n                <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n                    <span class=\"sr-only\">Toggle navigation</span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                </button>\n                <a class=\"navbar-brand\" href=\"/blog\">Dimansion's Blog</a>\n            </div>\n\n            <!-- Collect the nav links, forms, and other content for toggling -->\n            <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n                <ul class=\"nav navbar-nav navbar-right\">\n                    <li>\n                        <a href=\"/portofolio\"><span class=\"glyphicon glyphicon-home\"></span></a>\n                    </li>\n                </ul>\n            </div>\n            <!-- /.navbar-collapse -->\n        </div>\n        <!-- /.container -->\n    </nav>\n    \n    <div class=\"container\">\n        <div class=\"page-header\">\n            \n        </div>\n    </div>\n\n    <div class=\"content container\">\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                {% block content %} {% endblock %}\n            </div>\n        </div>\n    </div>\n\n\n    <!-- Footer -->\n    <footer>\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">\n                    <p class=\"copyright text-muted\"> &copy; Dimas Suardi Putra</p>\n                </div>\n            </div>\n        </div>\n    </footer>\n\n    <!-- jQuery -->\n    <script src=\"{% static 'assets/js/jquery.js' %}\"></script>\n\n    <!-- Bootstrap Core JavaScript -->\n    <script src=\"{% static 'assets/js/bootstrap.min.js' %}\"></script>\n\n    <!-- Custom Theme JavaScript -->\n    <script src=\"{% static 'assets/js/clean-blog.min.js' %}\"></script>\n\n</body>\n\n</html>",
-			"file": "/home/dimansion/django project/mywebsite/dango/templates/blog/base.html",
-			"file_size": 3901,
-			"file_write_time": 1473091532000000,
-			"settings":
-			{
-				"buffer_size": 3901,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "todo/views.py",
-			"settings":
-			{
-				"buffer_size": 732,
+				"buffer_size": 1328,
 				"line_ending": "Unix"
 			}
 		}
@@ -615,41 +636,49 @@
 	},
 	"file_history":
 	[
-		"/home/dimansion/django project/eas/static/assets/js/scripts.min.js",
-		"/home/dimansion/my-website-project/templates/polls/results.html",
-		"/home/dimansion/django project/eas/templates/photo/post_list.html",
+		"/home/dimansion/bepy/templates/blog/cats.html",
+		"/home/dimansion/bepy/templates/blog/base.html",
+		"/home/dimansion/my-website-project/templates/portfolio/base.html",
+		"/home/dimansion/Desktop/GridGallery/index.html",
+		"/home/dimansion/my-website-project/templates/gallery/photo_list.html",
+		"/home/dimansion/my-website-project/templates/polls/index.html",
+		"/home/dimansion/my-website-project/templates/blog/base.html",
+		"/home/dimansion/django project/mywebsite/dango/templates/portofolio/index.html",
+		"/home/dimansion/perpus2/templates/buku2/index.html",
+		"/home/dimansion/perpus2/buku2/models.py",
+		"/home/dimansion/my-website-project/templates/blog/post_list.html",
+		"/home/dimansion/Advancing-the-Blog/src/templates/post_detail.html",
+		"/home/dimansion/my-website-project/templates/blog/post_detail.html",
 		"/home/dimansion/my-website-project/templates/polls/detail.html",
+		"/home/dimansion/my-website-project/templates/polls/results.html",
+		"/home/dimansion/my-website-project/djangoproject/settings.py",
+		"/home/dimansion/my-website-project/todo/forms.py",
+		"/home/dimansion/my-website-project/templates/base.html",
+		"/home/dimansion/my-website-project/todo/views.py",
+		"/home/dimansion/my-website-project/templates/todo/schedule_list.html",
+		"/home/dimansion/django project/mywebsite/dango/templates/blog/base.html",
+		"/home/dimansion/django project/eas/static/assets/js/scripts.min.js",
+		"/home/dimansion/django project/eas/templates/photo/post_list.html",
 		"/home/dimansion/my-website-project/polls/models.py",
 		"/home/dimansion/my-website-project/polls/admin.py",
-		"/home/dimansion/my-website-project/templates/polls/index.html",
 		"/home/dimansion/Desktop/test.html",
-		"/home/dimansion/my-website-project/templates/blog/post_list.html",
-		"/home/dimansion/my-website-project/templates/blog/base.html",
-		"/home/dimansion/my-website-project/templates/blog/post_detail.html",
-		"/home/dimansion/my-website-project/templates/gallery/photo_list.html",
-		"/home/dimansion/my-website-project/templates/todo/schedule_list.html",
 		"/home/dimansion/my-website-project/polls/urls.py",
 		"/home/dimansion/my-website-project/polls/views.py",
 		"/home/dimansion/my-website-project/templates/polls/result.html",
 		"/home/dimansion/bepy/blog/models.py",
-		"/home/dimansion/my-website-project/djangoproject/settings.py",
 		"/home/dimansion/my-website-project/djangoproject/urls.py",
 		"/home/dimansion/my-website-project/gallery/models.py",
 		"/home/dimansion/my-website-project/static/css/gallery.css",
 		"/home/dimansion/my-website-project/static/css/demo-gallery.css",
 		"/home/dimansion/my-website-project/static/css/base.css",
 		"/home/dimansion/my-website-project/static/css/component.css",
-		"/home/dimansion/my-website-project/templates/portfolio/base.html",
 		"/home/dimansion/my-website-project/static/css/demo.css",
-		"/home/dimansion/Desktop/GridGallery/index.html",
 		"/home/dimansion/my-website-project/gallery/urls.py",
 		"/home/dimansion/my-website-project/gallery/views.py",
 		"/home/dimansion/my-website-project/templates/blog/post_form.html",
 		"/home/dimansion/my-website-project/gallery/admin.py",
-		"/home/dimansion/my-website-project/todo/views.py",
 		"/home/dimansion/my-website-project/todo/models.py",
 		"/home/dimansion/my-website-project/templates/todo/list.html",
-		"/home/dimansion/my-website-project/todo/forms.py",
 		"/home/dimansion/my-website-project/blog/views.py",
 		"/home/dimansion/my-website-project/blog/models.py",
 		"/home/dimansion/my-website-project/blog/urls.py",
@@ -660,7 +689,6 @@
 		"/home/dimansion/my-website-project/portfolio/views.py",
 		"/home/dimansion/my-website-project/templates/portfolio/projects.html",
 		"/home/dimansion/my-website-project/static/css/default.css",
-		"/home/dimansion/django project/mywebsite/dango/templates/portofolio/index.html",
 		"/home/dimansion/my-website-project/static/css/component2.css",
 		"/home/dimansion/Desktop/Untitled Folder.2/index.html",
 		"/home/dimansion/Desktop/Untitled Folder.2/assets/css/main.css",
@@ -681,7 +709,6 @@
 		"/home/dimansion/test.py",
 		"/home/dimansion/bepy/bepy/settings.py",
 		"/home/dimansion/bepy/bepy/settings.py~",
-		"/home/dimansion/bepy/templates/blog/base.html",
 		"/home/dimansion/bepy/templates/blog/post_detail.html",
 		"/home/dimansion/bepyprojects/todo/models.py",
 		"/home/dimansion/bepy/templates/registration/login.html",
@@ -697,7 +724,6 @@
 		"/home/dimansion/bepy/blog/urls.py",
 		"/home/dimansion/bepy/templates/blog/post_list.html",
 		"/home/dimansion/bepy/templates/blog/category.html",
-		"/home/dimansion/bepy/templates/blog/cats.html",
 		"/home/dimansion/bepy/blog/views.py",
 		"/home/dimansion/blogCFE/blog/blog.sublime-project",
 		"/home/dimansion/bepy/templates/project/post_list.html",
@@ -737,12 +763,7 @@
 		"/Users/jmitch/Desktop/dm/src/sellers/models.py",
 		"/Users/jmitch/Desktop/dm/src/products/models.py",
 		"/Users/jmitch/Desktop/dm/src/templates/dashboard/view.html",
-		"/Users/jmitch/Desktop/dm/src/dashboard/views.py",
-		"/Users/jmitch/Desktop/dm/README.md",
-		"/Users/jmitch/Desktop/dm/src/digitalmarket/urls.py",
-		"/Users/jmitch/Desktop/dm/src/sellers/views.py",
-		"/Users/jmitch/Desktop/dm/src/checkout/views.py",
-		"/Users/jmitch/Desktop/dm.md"
+		"/Users/jmitch/Desktop/dm/src/dashboard/views.py"
 	],
 	"find":
 	{
@@ -770,6 +791,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Postform",
+			"Post",
+			"Book",
+			"Post",
+			"heading",
+			"<hr",
+			"hr",
 			">    ",
 			">\n",
 			"back",
@@ -890,14 +918,7 @@
 			"after ",
 			"href",
 			"take_quiz",
-			"start",
-			"Coding",
-			"Coding For Entrepreneurs",
-			"Coding for Entrepreneurs",
-			"results",
-			"cleaned_email",
-			"class=\"fa fa-check\"",
-			"You are already logged in"
+			"start"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -931,23 +952,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "djangoproject/settings.py",
+					"file": "library/models.py",
 					"settings":
 					{
-						"buffer_size": 3704,
+						"buffer_size": 1571,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1172,
-								1172
+								539,
+								539
 							]
 						],
 						"settings":
@@ -957,31 +978,32 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 483.0,
+						"translation.y": 69.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "todo/forms.py",
+					"file": "djangoproject/urls.py",
 					"settings":
 					{
-						"buffer_size": 455,
+						"buffer_size": 911,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								293,
-								293
+								638,
+								638
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -991,44 +1013,154 @@
 				},
 				{
 					"buffer": 2,
-					"file": "templates/todo/schedule_list.html",
+					"file": "library/urls.py",
 					"settings":
 					{
-						"buffer_size": 1712,
+						"buffer_size": 549,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1646,
-								1646
+								502,
+								502
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1863.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/home/dimansion/django project/mywebsite/dango/templates/blog/base.html",
+					"file": "library/views.py",
 					"settings":
 					{
-						"buffer_size": 3901,
+						"buffer_size": 3171,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9,
-								9
+								571,
+								571
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "library/forms.py",
+					"settings":
+					{
+						"buffer_size": 421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "djangoproject/settings.py",
+					"settings":
+					{
+						"buffer_size": 3721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1300,
+								1300
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 897.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "library/admin.py",
+					"settings":
+					{
+						"buffer_size": 404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "templates/library/post_list.html",
+					"settings":
+					{
+						"buffer_size": 1328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
 							]
 						],
 						"settings":
@@ -1036,33 +1168,6 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4600.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "todo/views.py",
-					"settings":
-					{
-						"buffer_size": 732,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								367,
-								367
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

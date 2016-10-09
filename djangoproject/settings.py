@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'todo',
     'gallery',
     'polls',
+    'library',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'

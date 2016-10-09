@@ -11,6 +11,7 @@ urlpatterns = [
     url(r'^todo/', include('todo.urls', namespace='todo')),
     url(r'^gallery/', include('gallery.urls', namespace='gallery')),
     url(r'^polls/', include('polls.urls', namespace='polls')),
+    url(r'^library/', include('library.urls', namespace='library')),
     url(r'^logout/$', auth_view.logout, name='logout', kwargs={'next_page': '/'}),
 ]
 
