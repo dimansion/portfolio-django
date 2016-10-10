@@ -520,66 +520,26 @@
 	"buffers":
 	[
 		{
-			"file": "library/models.py",
+			"file": "/home/dimansion/Desktop/datetime/test.html",
 			"settings":
 			{
-				"buffer_size": 1571,
+				"buffer_size": 980,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "djangoproject/urls.py",
+			"file": "templates/todo/schedule_list.html",
 			"settings":
 			{
-				"buffer_size": 911,
+				"buffer_size": 1743,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "library/urls.py",
+			"file": "todo/forms.py",
 			"settings":
 			{
-				"buffer_size": 549,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library/views.py",
-			"settings":
-			{
-				"buffer_size": 3171,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library/forms.py",
-			"settings":
-			{
-				"buffer_size": 421,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "djangoproject/settings.py",
-			"settings":
-			{
-				"buffer_size": 3721,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library/admin.py",
-			"settings":
-			{
-				"buffer_size": 404,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/library/post_list.html",
-			"settings":
-			{
-				"buffer_size": 1328,
+				"buffer_size": 235,
 				"line_ending": "Unix"
 			}
 		}
@@ -636,26 +596,41 @@
 	},
 	"file_history":
 	[
-		"/home/dimansion/bepy/templates/blog/cats.html",
+		"/home/dimansion/my-website-project/templates/blog/base.html",
+		"/home/dimansion/my-website-project/templates/library/post_create.html",
+		"/home/dimansion/my-website-project/library/templatetags/library_extras.py",
+		"/home/dimansion/my-website-project/templates/library/post_detail.html",
+		"/home/dimansion/my-website-project/templates/blog/post_detail.html",
+		"/home/dimansion/my-website-project/templates/blog/post_list.html",
+		"/home/dimansion/my-website-project/templates/todo/schedule_list.html",
+		"/home/dimansion/Desktop/datetime/test.html",
+		"/home/dimansion/my-website-project/todo/forms.py",
+		"/home/dimansion/my-website-project/templates/library/category.html",
+		"/home/dimansion/my-website-project/templates/library/cats.html",
+		"/home/dimansion/my-website-project/templates/library/post_list.html",
+		"/home/dimansion/my-website-project/templates/library/base.html",
+		"/home/dimansion/my-website-project/library/models.py",
+		"/home/dimansion/my-website-project/djangoproject/urls.py",
+		"/home/dimansion/my-website-project/library/urls.py",
+		"/home/dimansion/my-website-project/library/views.py",
+		"/home/dimansion/my-website-project/library/forms.py",
+		"/home/dimansion/my-website-project/library/admin.py",
+		"/home/dimansion/my-website-project/templates/polls/detail.html",
 		"/home/dimansion/bepy/templates/blog/base.html",
+		"/home/dimansion/my-website-project/djangoproject/settings.py",
+		"/home/dimansion/my-website-project/library/templatetags/blog_extras.py",
+		"/home/dimansion/bepy/templates/blog/cats.html",
 		"/home/dimansion/my-website-project/templates/portfolio/base.html",
 		"/home/dimansion/Desktop/GridGallery/index.html",
 		"/home/dimansion/my-website-project/templates/gallery/photo_list.html",
 		"/home/dimansion/my-website-project/templates/polls/index.html",
-		"/home/dimansion/my-website-project/templates/blog/base.html",
 		"/home/dimansion/django project/mywebsite/dango/templates/portofolio/index.html",
 		"/home/dimansion/perpus2/templates/buku2/index.html",
 		"/home/dimansion/perpus2/buku2/models.py",
-		"/home/dimansion/my-website-project/templates/blog/post_list.html",
 		"/home/dimansion/Advancing-the-Blog/src/templates/post_detail.html",
-		"/home/dimansion/my-website-project/templates/blog/post_detail.html",
-		"/home/dimansion/my-website-project/templates/polls/detail.html",
 		"/home/dimansion/my-website-project/templates/polls/results.html",
-		"/home/dimansion/my-website-project/djangoproject/settings.py",
-		"/home/dimansion/my-website-project/todo/forms.py",
 		"/home/dimansion/my-website-project/templates/base.html",
 		"/home/dimansion/my-website-project/todo/views.py",
-		"/home/dimansion/my-website-project/templates/todo/schedule_list.html",
 		"/home/dimansion/django project/mywebsite/dango/templates/blog/base.html",
 		"/home/dimansion/django project/eas/static/assets/js/scripts.min.js",
 		"/home/dimansion/django project/eas/templates/photo/post_list.html",
@@ -666,7 +641,6 @@
 		"/home/dimansion/my-website-project/polls/views.py",
 		"/home/dimansion/my-website-project/templates/polls/result.html",
 		"/home/dimansion/bepy/blog/models.py",
-		"/home/dimansion/my-website-project/djangoproject/urls.py",
 		"/home/dimansion/my-website-project/gallery/models.py",
 		"/home/dimansion/my-website-project/static/css/gallery.css",
 		"/home/dimansion/my-website-project/static/css/demo-gallery.css",
@@ -749,21 +723,7 @@
 		"/Users/jmitch/Desktop/trydjango19/README.md",
 		"/Users/jmitch/Desktop/dm/src/products/views.py",
 		"/Users/jmitch/Desktop/dm/src/templates/form.html",
-		"/Users/jmitch/Desktop/dm/src/templates/form_include.html",
-		"/Users/jmitch/Desktop/dm/src/sellers/forms.py",
-		"/Users/jmitch/Desktop/dm/src/templates/base.html",
-		"/Users/jmitch/Desktop/dm/src/digitalmarket/mixins.py",
-		"/Users/jmitch/Desktop/dm/src/templates/products/product_list_snippet.html",
-		"/Users/jmitch/Desktop/dm/src/templates/products/library_list.html",
-		"/Users/jmitch/Desktop/dm/src/products/urls.py",
-		"/Users/jmitch/Desktop/dm/src/templates/products/product_detail.html",
-		"/Users/jmitch/Desktop/dm/src/templates/products/product_list.html",
-		"/Users/jmitch/Desktop/dm/src/products/tests.py",
-		"/Users/jmitch/Desktop/dm/src/products/admin.py",
-		"/Users/jmitch/Desktop/dm/src/sellers/models.py",
-		"/Users/jmitch/Desktop/dm/src/products/models.py",
-		"/Users/jmitch/Desktop/dm/src/templates/dashboard/view.html",
-		"/Users/jmitch/Desktop/dm/src/dashboard/views.py"
+		"/Users/jmitch/Desktop/dm/src/templates/form_include.html"
 	],
 	"find":
 	{
@@ -791,6 +751,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"post",
+			"Post",
+			"blog",
 			"Postform",
 			"Post",
 			"Book",
@@ -915,10 +878,7 @@
 			"question",
 			"next",
 			"take_quiz",
-			"after ",
-			"href",
-			"take_quiz",
-			"start"
+			"after "
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -952,222 +912,82 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "library/models.py",
+					"file": "/home/dimansion/Desktop/datetime/test.html",
 					"settings":
 					{
-						"buffer_size": 1571,
+						"buffer_size": 980,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								539,
-								539
+								834,
+								834
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 69.0,
+						"translation.y": 132.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "djangoproject/urls.py",
+					"file": "templates/todo/schedule_list.html",
 					"settings":
 					{
-						"buffer_size": 911,
+						"buffer_size": 1743,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								638,
-								638
+								1678,
+								1678
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "library/urls.py",
+					"file": "todo/forms.py",
 					"settings":
 					{
-						"buffer_size": 549,
+						"buffer_size": 235,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								502,
-								502
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "library/views.py",
-					"settings":
-					{
-						"buffer_size": 3171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								571,
-								571
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "library/forms.py",
-					"settings":
-					{
-						"buffer_size": 421,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								237,
-								237
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "djangoproject/settings.py",
-					"settings":
-					{
-						"buffer_size": 3721,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1300,
-								1300
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 897.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "library/admin.py",
-					"settings":
-					{
-						"buffer_size": 404,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								110,
-								110
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "templates/library/post_list.html",
-					"settings":
-					{
-						"buffer_size": 1328,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20,
-								20
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

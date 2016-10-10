@@ -6,19 +6,21 @@
 {% endblock %}
 {% block content %}
     <div class="container">
-    <div class="row-fluid">
-        <div class="col-md-3">
+    <div class="row">
+        <div class="col-md-12">
             <div class="sidebar-nav">
-                  <ul class="nav nav-list">
-                    <li class="nav-header">All Category</li>
-                  </ul>
-                <ul class="nav nav-list">
+                <ul class="nav nav-list nav-justified">
+                  <li><a href="{% url 'library:index' %}">All Category</a></li>
+                </ul>
+                <ul class="list-inline">
                     <li></li>
                     <li></li>
                     {% block side_block %}
                     {% get_category_list category %}
                     {% endblock %}
                 </ul>
+            </div>
+            <hr>
 
 
 
@@ -33,11 +35,9 @@
 
 
             </div>
-            <!--/.well -->
-
-        </div>
+            <!--/.well -->    
         <!--/span-->
-        <div class="col-md-9">
+        <div class="col-sm-6 col-sm-offset-3">
             {% block body_block %}
             {% endblock %}
         </div>
