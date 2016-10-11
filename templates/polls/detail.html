@@ -20,7 +20,10 @@
 	    {% if choice.image %}
 	    <img src="{{ choice.image.url }}" class="img-responsive" alt="{{ choice.choice_text }}">
 	    {% endif %}
+	    
 	{% endfor %}
+	<!-- <label for="id_voter_name">Voter name:</label>
+	<input class="textinput textInput form-control" id="id_voter_name" maxlength="200" name="voter_name" type="text" /> -->
 	<input type="submit" class="btn btn-primary" value="Vote" />
 	</form>
 	<div class="addthis_inline_share_toolbox"></div>

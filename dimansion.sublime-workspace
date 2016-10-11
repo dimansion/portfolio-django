@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"c",
+				"Choice"
+			],
+			[
 				"da",
 				"datetimepicker4"
 			],
@@ -26,10 +30,6 @@
 			[
 				"re",
 				"request"
-			],
-			[
-				"c",
-				"Charfield"
 			],
 			[
 				"m",
@@ -520,26 +520,42 @@
 	"buffers":
 	[
 		{
-			"file": "/home/dimansion/Desktop/datetime/test.html",
+			"file": "templates/library/base.html",
 			"settings":
 			{
-				"buffer_size": 980,
+				"buffer_size": 1331,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/todo/schedule_list.html",
+			"file": "templates/library/cats.html",
 			"settings":
 			{
-				"buffer_size": 1743,
+				"buffer_size": 338,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "todo/forms.py",
+			"file": "polls/models.py",
 			"settings":
 			{
-				"buffer_size": 235,
+				"buffer_size": 1013,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polls/admin.py",
+			"settings":
+			{
+				"buffer_size": 517,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/polls/detail.html",
+			"settings":
+			{
+				"buffer_size": 1412,
 				"line_ending": "Unix"
 			}
 		}
@@ -596,15 +612,15 @@
 	},
 	"file_history":
 	[
+		"/home/dimansion/my-website-project/templates/library/post_detail.html",
+		"/home/dimansion/my-website-project/todo/forms.py",
+		"/home/dimansion/my-website-project/templates/todo/schedule_list.html",
+		"/home/dimansion/Desktop/datetime/test.html",
 		"/home/dimansion/my-website-project/templates/blog/base.html",
 		"/home/dimansion/my-website-project/templates/library/post_create.html",
 		"/home/dimansion/my-website-project/library/templatetags/library_extras.py",
-		"/home/dimansion/my-website-project/templates/library/post_detail.html",
 		"/home/dimansion/my-website-project/templates/blog/post_detail.html",
 		"/home/dimansion/my-website-project/templates/blog/post_list.html",
-		"/home/dimansion/my-website-project/templates/todo/schedule_list.html",
-		"/home/dimansion/Desktop/datetime/test.html",
-		"/home/dimansion/my-website-project/todo/forms.py",
 		"/home/dimansion/my-website-project/templates/library/category.html",
 		"/home/dimansion/my-website-project/templates/library/cats.html",
 		"/home/dimansion/my-website-project/templates/library/post_list.html",
@@ -751,6 +767,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"%}\n",
 			"post",
 			"Post",
 			"blog",
@@ -877,8 +894,7 @@
 			"lecturequestion",
 			"question",
 			"next",
-			"take_quiz",
-			"after "
+			"take_quiz"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -912,23 +928,22 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/dimansion/Desktop/datetime/test.html",
+					"file": "templates/library/base.html",
 					"settings":
 					{
-						"buffer_size": 980,
+						"buffer_size": 1331,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								834,
-								834
+								801,
+								801
 							]
 						],
 						"settings":
@@ -938,25 +953,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 132.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "templates/todo/schedule_list.html",
+					"file": "templates/library/cats.html",
 					"settings":
 					{
-						"buffer_size": 1743,
+						"buffer_size": 338,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1678,
-								1678
+								43,
+								43
 							]
 						],
 						"settings":
@@ -964,30 +979,85 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 594.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "todo/forms.py",
+					"file": "polls/models.py",
 					"settings":
 					{
-						"buffer_size": 235,
+						"buffer_size": 1013,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								471,
+								471
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "polls/admin.py",
+					"settings":
+					{
+						"buffer_size": 517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								516,
+								516
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/polls/detail.html",
+					"settings":
+					{
+						"buffer_size": 1412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1248,
+								1248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

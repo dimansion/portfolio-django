@@ -10,7 +10,7 @@
 	{% for project in projects %}
 	<li>
 		<a href="{{ project.url }}" data-largesrc="{{ project.image.url }}" data-title="{{ project.title }}" data-description="{{ project.description }}">
-			<img src="{{ project.image.url }}" class="img-rounded" height=250 width=250 alt="{{ project.title }}"/>
+			<img src="{{ project.image.url }}" class="img-rounded" height=160 width=250 alt="{{ project.title }}"/>
 		</a>
 	</li>
 	{% endfor %}

@@ -57,7 +57,7 @@ def post_create(request):
             post = form.save(commit=False)
             post.published_date = timezone.now()
             post.save()
-            return redirect('index')
+            return redirect('library:index')
     else:
         form = BookForm()
 
