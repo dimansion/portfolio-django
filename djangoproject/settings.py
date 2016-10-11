@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'pagedown',
     # 'bootstrap3_datetime',
     # 'rest_framework',
-
+    
     # local apps
     'portfolio',
     'blog',
