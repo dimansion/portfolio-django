@@ -17,7 +17,6 @@ from .utils import get_read_time
 # Create your models here.
 # MVC MODEL VIEW CONTROLLER
 
-
 #Post.objects.all()
 #Post.objects.create(user=user, title="Some time")
 
