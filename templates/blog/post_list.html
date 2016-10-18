@@ -1,17 +1,14 @@
 {% extends "blog/base.html" %}
 {% block post_detail_link %}<li><a href='{% url "blog:list" %}'>Blog</a></li>{% endblock %}
 {% block content %}
-
+<h1>{{ title }}</h1>
 <form method='GET' action='' class='form-inline'>
-        <div class="form-group">
-            <h1>{{ title }}</h1>
-        </div>
         <div class='form-group'>
             <div class='input-group'>
-                <input class='form-control' type='text' name='q' placeholder='Cari Artikel' value='{{ request.GET.q }}'/>
+                <input class='form-control' type='text' name='q' placeholder='Search Post' value='{{ request.GET.q }}'/>
                 <span class='input-group-btn'>
                     <!-- <input class='btn btn-default' type='submit' value='Search' /> -->
-                    <button class='btn btn-default' type='submit'>Cari <i class="fa fa-search"></i></button>
+                    <button class='btn btn-default' type='submit'>Search <i class="fa fa-search"></i></button>
                 </span>
             </div>
         </div>
