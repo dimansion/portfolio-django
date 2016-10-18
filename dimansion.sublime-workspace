@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"pro",
+				"project"
+			],
+			[
+				"Con",
+				"ContentInline"
+			],
+			[
 				"c",
 				"Choice"
 			],
@@ -146,10 +154,6 @@
 			[
 				"rat",
 				"ratings"
-			],
-			[
-				"pro",
-				"product_obj"
 			],
 			[
 				"ra",
@@ -510,119 +514,11 @@
 			[
 				"template",
 				"template_name"
-			],
-			[
-				"is_",
-				"is_authenticated"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "templates/library/base.html",
-			"settings":
-			{
-				"buffer_size": 1331,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/library/cats.html",
-			"settings":
-			{
-				"buffer_size": 338,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "polls/models.py",
-			"settings":
-			{
-				"buffer_size": 1013,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "polls/admin.py",
-			"settings":
-			{
-				"buffer_size": 517,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/polls/detail.html",
-			"settings":
-			{
-				"buffer_size": 1414,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/library/post_create.html",
-			"settings":
-			{
-				"buffer_size": 687,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library/views.py",
-			"settings":
-			{
-				"buffer_size": 3188,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/portfolio/projects.html",
-			"settings":
-			{
-				"buffer_size": 613,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "blog/models.py",
-			"settings":
-			{
-				"buffer_size": 3658,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "blog/urls.py",
-			"settings":
-			{
-				"buffer_size": 501,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "blog/forms.py",
-			"settings":
-			{
-				"buffer_size": 439,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "blog/admin.py",
-			"settings":
-			{
-				"buffer_size": 389,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "blog/views.py",
-			"settings":
-			{
-				"buffer_size": 3287,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -676,31 +572,111 @@
 	},
 	"file_history":
 	[
+		"/home/dimansion/bepy/templates/project/project.html",
+		"/home/dimansion/bepy/templates/base.html",
+		"/home/dimansion/bepy/templates/blog/contact.html",
+		"/home/dimansion/django project/skripsi/static/css/custom.css",
+		"/home/dimansion/django project/skripsi/templates/learning/base.html",
+		"/home/dimansion/bepy/templates/home.html",
+		"/home/dimansion/bepy/templates/project/post_list.html",
+		"/home/dimansion/bepy/templates/blog/post_list.html",
+		"/home/dimansion/Documents/template/blog.html",
+		"/home/dimansion/bepy/templates/article/article_detail.html",
+		"/home/dimansion/bepy/templates/article/article_list.html",
+		"/home/dimansion/bepy/article/views.py",
+		"/home/dimansion/bepy/templates/article/form.html",
+		"/home/dimansion/bepy/templates/article/confirm_delete.html",
+		"/home/dimansion/bepy/templates/article/comment_thread.html",
+		"/home/dimansion/bepy/templates/article/base.html",
+		"/home/dimansion/bepy/templates/article/article_form.html",
+		"/home/dimansion/Advancing-the-Blog/src/posts/urls.py",
+		"/home/dimansion/bepy/article/urls.py",
+		"/home/dimansion/bepy/article/forms.py",
+		"/home/dimansion/bepy/article/models.py",
+		"/home/dimansion/bepy/article/admin.py",
+		"/home/dimansion/Advancing-the-Blog/src/posts/views.py",
+		"/home/dimansion/my-website-project/blog/models.py",
+		"/home/dimansion/my-website-project/blog/admin.py",
+		"/home/dimansion/my-website-project/blog/views.py",
+		"/home/dimansion/bepy/bepy/settings.py",
+		"/home/dimansion/Advancing-the-Blog/src/posts/models.py",
+		"/home/dimansion/bepy/bepy/urls.py",
+		"/home/dimansion/bepy/templates/project/lesson_detail.html",
+		"/home/dimansion/Downloads/template/contact.html",
+		"/home/dimansion/bepy/templates/blog/base.html",
+		"/home/dimansion/bepy/templates/blog/category.html",
+		"/home/dimansion/bepy/templates/blog/post_detail.html",
+		"/home/dimansion/bepy/templates/project/post_detail.html",
+		"/home/dimansion/bepy/project/urls.py",
+		"/home/dimansion/bepy/project/views.py",
+		"/home/dimansion/bepy/blog/views.py",
+		"/home/dimansion/bepy/bepy/urls.py~",
+		"/home/dimansion/bepy/templates/registration/registration_form.html",
+		"/home/dimansion/bepy/templates/registration/login.html",
+		"/home/dimansion/bepy/templates/registration/registration_complete.html",
+		"/home/dimansion/bepy/templates/registration/registration_closed.html",
+		"/home/dimansion/bepy/templates/registration/password_reset_form.html",
+		"/home/dimansion/bepy/templates/registration/password_reset_done.html",
+		"/home/dimansion/bepy/templates/registration/password_reset_confirm.html",
+		"/home/dimansion/bepy/templates/registration/password_reset_complete.html",
+		"/home/dimansion/bepy/templates/registration/password_change_form.html",
+		"/home/dimansion/bepy/templates/registration/password_change_done.html",
+		"/home/dimansion/bepy/templates/registration/logout.html",
+		"/home/dimansion/bepy/templates/registration/activation_complete.html",
+		"/home/dimansion/bepy/templates/registration/activate.html",
+		"/home/dimansion/Documents/bepy template backup/project/post_detail.html",
+		"/home/dimansion/Documents/bepy template backup/project/lesson_detail.html",
+		"/home/dimansion/Documents/bepy template backup/blog/category.html",
+		"/home/dimansion/Documents/bepy template backup/blog/post_detail.html",
+		"/home/dimansion/Documents/bepy template backup/blog/post_list.html",
+		"/home/dimansion/bepy/project/admin.py",
+		"/home/dimansion/bepy/templates/blog/cats.html",
+		"/home/dimansion/bepy/templates/blog/post_create.html",
+		"/home/dimansion/Desktop/template/login-register.html",
+		"/home/dimansion/bepy/templates/blog/base2.html",
+		"/home/dimansion/Desktop/template/contact.html",
+		"/home/dimansion/bepy/templates/blog/forms.py",
+		"/home/dimansion/Desktop/template/index.html",
+		"/home/dimansion/Documents/template/contact.html",
+		"/home/dimansion/Documents/template/index (copy).html",
+		"/home/dimansion/template/index.html",
+		"/home/dimansion/template/contact.html",
+		"/home/dimansion/bepy/static/css/style.css",
+		"/home/dimansion/bepy/templates/project/base.html",
+		"/home/dimansion/bepy/blog/admin.py",
+		"/home/dimansion/my-website-project/polls/admin.py",
+		"/home/dimansion/my-website-project/templates/portfolio/base.html",
+		"/home/dimansion/my-website-project/static/js/main.js",
+		"/home/dimansion/my-website-project/static/js/grid.js",
+		"/home/dimansion/Desktop/Untitled Folder.2/test.html",
+		"/home/dimansion/tryangular/src/index.html",
+		"/home/dimansion/my-website-project/templates/blog/base.html",
+		"/home/dimansion/tryangular/index.html",
+		"/home/dimansion/my-website-project/djangoproject/settings.py",
+		"/home/dimansion/my-website-project/blog/forms.py",
+		"/home/dimansion/my-website-project/blog/urls.py",
+		"/home/dimansion/my-website-project/templates/portfolio/projects.html",
+		"/home/dimansion/my-website-project/library/views.py",
+		"/home/dimansion/my-website-project/templates/library/post_create.html",
+		"/home/dimansion/my-website-project/templates/polls/detail.html",
+		"/home/dimansion/my-website-project/polls/models.py",
+		"/home/dimansion/my-website-project/templates/library/cats.html",
+		"/home/dimansion/my-website-project/templates/library/base.html",
 		"/home/dimansion/my-website-project/templates/library/post_detail.html",
 		"/home/dimansion/my-website-project/todo/forms.py",
 		"/home/dimansion/my-website-project/templates/todo/schedule_list.html",
 		"/home/dimansion/Desktop/datetime/test.html",
-		"/home/dimansion/my-website-project/templates/blog/base.html",
-		"/home/dimansion/my-website-project/templates/library/post_create.html",
 		"/home/dimansion/my-website-project/library/templatetags/library_extras.py",
 		"/home/dimansion/my-website-project/templates/blog/post_detail.html",
 		"/home/dimansion/my-website-project/templates/blog/post_list.html",
 		"/home/dimansion/my-website-project/templates/library/category.html",
-		"/home/dimansion/my-website-project/templates/library/cats.html",
 		"/home/dimansion/my-website-project/templates/library/post_list.html",
-		"/home/dimansion/my-website-project/templates/library/base.html",
 		"/home/dimansion/my-website-project/library/models.py",
 		"/home/dimansion/my-website-project/djangoproject/urls.py",
 		"/home/dimansion/my-website-project/library/urls.py",
-		"/home/dimansion/my-website-project/library/views.py",
 		"/home/dimansion/my-website-project/library/forms.py",
 		"/home/dimansion/my-website-project/library/admin.py",
-		"/home/dimansion/my-website-project/templates/polls/detail.html",
-		"/home/dimansion/bepy/templates/blog/base.html",
-		"/home/dimansion/my-website-project/djangoproject/settings.py",
 		"/home/dimansion/my-website-project/library/templatetags/blog_extras.py",
-		"/home/dimansion/bepy/templates/blog/cats.html",
-		"/home/dimansion/my-website-project/templates/portfolio/base.html",
 		"/home/dimansion/Desktop/GridGallery/index.html",
 		"/home/dimansion/my-website-project/templates/gallery/photo_list.html",
 		"/home/dimansion/my-website-project/templates/polls/index.html",
@@ -714,8 +690,6 @@
 		"/home/dimansion/django project/mywebsite/dango/templates/blog/base.html",
 		"/home/dimansion/django project/eas/static/assets/js/scripts.min.js",
 		"/home/dimansion/django project/eas/templates/photo/post_list.html",
-		"/home/dimansion/my-website-project/polls/models.py",
-		"/home/dimansion/my-website-project/polls/admin.py",
 		"/home/dimansion/Desktop/test.html",
 		"/home/dimansion/my-website-project/polls/urls.py",
 		"/home/dimansion/my-website-project/polls/views.py",
@@ -725,85 +699,7 @@
 		"/home/dimansion/my-website-project/static/css/gallery.css",
 		"/home/dimansion/my-website-project/static/css/demo-gallery.css",
 		"/home/dimansion/my-website-project/static/css/base.css",
-		"/home/dimansion/my-website-project/static/css/component.css",
-		"/home/dimansion/my-website-project/static/css/demo.css",
-		"/home/dimansion/my-website-project/gallery/urls.py",
-		"/home/dimansion/my-website-project/gallery/views.py",
-		"/home/dimansion/my-website-project/templates/blog/post_form.html",
-		"/home/dimansion/my-website-project/gallery/admin.py",
-		"/home/dimansion/my-website-project/todo/models.py",
-		"/home/dimansion/my-website-project/templates/todo/list.html",
-		"/home/dimansion/my-website-project/blog/views.py",
-		"/home/dimansion/my-website-project/blog/models.py",
-		"/home/dimansion/my-website-project/blog/urls.py",
-		"/home/dimansion/my-website-project/templates/post_list.html",
-		"/home/dimansion/my-website-project/portfolio/models.py",
-		"/home/dimansion/my-website-project/portfolio/admin.py",
-		"/home/dimansion/my-website-project/portfolio/urls.py",
-		"/home/dimansion/my-website-project/portfolio/views.py",
-		"/home/dimansion/my-website-project/templates/portfolio/projects.html",
-		"/home/dimansion/my-website-project/static/css/default.css",
-		"/home/dimansion/my-website-project/static/css/component2.css",
-		"/home/dimansion/Desktop/Untitled Folder.2/index.html",
-		"/home/dimansion/Desktop/Untitled Folder.2/assets/css/main.css",
-		"/home/dimansion/Desktop/Untitled Folder.2/test.html",
-		"/home/dimansion/bepy/bepy.sublime-project",
-		"/home/dimansion/my-website-project/dimansion.sublime-workspace",
-		"/home/dimansion/my-website-project/portofolio/models.py",
-		"/home/dimansion/django project/mywebsite/dango/blog/models.py",
-		"/home/dimansion/trydjango18/src/trydjango18/urls.py",
-		"/home/dimansion/trydjango18/src/newsletter/forms.py",
-		"/home/dimansion/trydjango18/src/templates/newsletter/home.html",
-		"/home/dimansion/trydjango18/src/templates/newsletter/forms.html",
-		"/home/dimansion/trydjango18/src/newsletter/views.py",
-		"/home/dimansion/trydjango18/src/newsletter/urls.py",
-		"/home/dimansion/trydjango18/src/trydjango18/settings.py",
-		"/home/dimansion/trydjango18/src/newsletter/admin.py",
-		"/home/dimansion/trydjango18/src/newsletter/models.py",
-		"/home/dimansion/test.py",
-		"/home/dimansion/bepy/bepy/settings.py",
-		"/home/dimansion/bepy/bepy/settings.py~",
-		"/home/dimansion/bepy/templates/blog/post_detail.html",
-		"/home/dimansion/bepyprojects/todo/models.py",
-		"/home/dimansion/bepy/templates/registration/login.html",
-		"/home/dimansion/bepy/bepy/urls.py",
-		"/home/dimansion/bepy/blog/api/serializers.py",
-		"/home/dimansion/bepy/blog/api/pagination.py",
-		"/home/dimansion/bepy/blog/api/views.py",
-		"/home/dimansion/bepy/blog/api/urls.py",
-		"/home/dimansion/bepy/project/urls.py",
-		"/home/dimansion/bepy/blog/templatetags/rango_extras.py",
-		"/home/dimansion/bepy/templates/project/base.html",
-		"/home/dimansion/bepy/blog/forms.py",
-		"/home/dimansion/bepy/blog/urls.py",
-		"/home/dimansion/bepy/templates/blog/post_list.html",
-		"/home/dimansion/bepy/templates/blog/category.html",
-		"/home/dimansion/bepy/blog/views.py",
-		"/home/dimansion/blogCFE/blog/blog.sublime-project",
-		"/home/dimansion/bepy/templates/project/post_list.html",
-		"/home/dimansion/bepy/templates/blog/post_create.html",
-		"/home/dimansion/bepy/static/css/style.css",
-		"/home/dimansion/bepy/templates/registration/registration_form.html",
-		"/home/dimansion/bepy/templates/registration/password_change_form.html",
-		"/home/dimansion/bepy/templates/registration/password_reset_form.html",
-		"/home/dimansion/bepy/templates/project/post_detail.html",
-		"/home/dimansion/bepy/bepy.sublime-workspace",
-		"/home/dimansion/bepy/blog/templatetags/blog_extras.py",
-		"/home/dimansion/bepy/templates/blog/about.html",
-		"/home/dimansion/blogCFE/try-django-19/trydjango19.sublime-workspace",
-		"/home/dimansion/blogCFE/try-django-19/src/trydjango19/wsgi.py",
-		"/home/dimansion/blogCFE/try-django-19/src/trydjango19/urls.py",
-		"/home/dimansion/blogCFE/try-django-19/src/trydjango19/settings.py",
-		"/home/dimansion/blogCFE/try-django-19/src/manage.py",
-		"/home/dimansion/blogCFE/try-django-19/local/trydjango19.sublime-workspace",
-		"/Users/jmitch/Desktop/trydjango19/src/trydjango19/urls.py",
-		"/Users/jmitch/Desktop/trydjango19/src/trydjango19/settings.py",
-		"/Users/jmitch/Desktop/trydjango19/src/db.sqlite3",
-		"/Users/jmitch/Desktop/trydjango19/src/trydjango19/wsgi.py",
-		"/Users/jmitch/Desktop/trydjango19/README.md",
-		"/Users/jmitch/Desktop/dm/src/products/views.py",
-		"/Users/jmitch/Desktop/dm/src/templates/form.html",
-		"/Users/jmitch/Desktop/dm/src/templates/form_include.html"
+		"/home/dimansion/my-website-project/static/css/component.css"
 	],
 	"find":
 	{
@@ -811,9 +707,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"/home/dimansion/bepy/templates/article",
 			"/Users/jmitch/Desktop/ecommerce-2/src,/home/dimansion/blogCFE/try-django-19",
 			"/Users/jmitch/Desktop/ecommerce-2/src",
 			"/Users/jmitch/Dropbox/projects/kpj",
@@ -831,134 +728,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"kontak kam",
+			"#con",
+			"python",
+			"twitter",
+			"post",
+			"article_form",
+			"blog",
+			">\n",
+			"blog",
+			"list",
+			"blog",
+			"{% endblock content %}",
+			"{% block content %}",
+			"Post",
+			"cate",
+			"start nd_options_container",
+			"respons",
+			"respon",
+			"#co",
+			"id",
+			"be",
+			"logo",
+			"vc_shortcodes-custom-css\"",
+			"endblo",
+			"project",
+			"sub",
+			"ul",
+			"project",
+			"page",
+			"python",
+			"icon",
+			"login",
+			"login\nlogin",
+			"login\n",
+			"login",
+			"regis",
+			"endblock",
+			"regis",
+			"login",
+			"PROJEC",
+			"PROJECT",
+			"project",
+			"block",
+			"page_list",
+			"start nd_options",
+			"block",
+			"goes",
+			"beran",
+			"start na",
+			"start",
+			"bera",
+			"kontak",
+			"start menu re",
+			"python",
+			"refre",
+			"share",
+			"home",
+			"icon",
+			"logo",
+			"python",
+			"course3",
+			"home",
+			"icon-me",
+			"icon-close",
+			"=\"{%",
+			"icon-close",
+			"icon-clo",
+			"icon-sea",
+			"icon-sea	",
+			"svg",
+			"search",
+			"searc",
+			"home2",
+			"home",
+			"share",
+			"revo",
+			"logo",
+			"bera",
+			"icon",
+			"find",
+			"bera",
+			"share",
+			"custom_",
+			"custom_\\",
+			"step",
+			"|",
+			"icon",
+			"tingg",
+			"nd_option",
+			"nd_optiom",
+			"goes",
+			"tenta",
+			"goes",
+			"=\"#\">",
+			"atte",
+			">\n",
+			"home",
+			"beranda",
+			"course",
+			"cour",
+			"home",
+			"home\ntea",
+			"home\nhome",
+			"home\n",
+			"home",
+			"			    \n",
+			"logo",
+			"beranda",
+			"py",
+			"be",
+			"bepy",
+			"course",
+			"we d",
+			"we ",
+			"we",
+			"menu-button",
+			"menu-button--open",
+			"button",
+			"main",
+			"/*",
+			"main",
+			"4",
 			"%}\n",
 			"post",
 			"Post",
 			"blog",
 			"Postform",
-			"Post",
-			"Book",
-			"Post",
-			"heading",
-			"<hr",
-			"hr",
-			">    ",
-			">\n",
-			"back",
-			"}}{%",
-			"<li>\n							<figure>\n								<figcaption>\n									<h3>Letterpress asymmetrical</h3>\n									<p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>\n								</figcaption>\n								<img src=\"img/large/1.png\" alt=\"img01\"/>\n							</figure>\n						</li>",
-			"grid",
-			"desc",
-			"head",
-			"posts",
-			"pos",
-			"regi",
-			"     \n",
-			"posts:",
-			"blog:",
-			"post:",
-			"post",
-			"initi",
-			"Comment",
-			"blog",
-			"comment",
-			"comme",
-			"size",
-			"6",
-			"img",
-			"h3",
-			"		<",
-			"user",
-			"}",
-			">\n",
-			")\n",
-			" }}</",
-			"()\n",
-			"trydjango19",
-			"get_transactions",
-			"ProductUpdateView",
-			"delete all",
-			"jmitch-#",
-			"AddressSelectFormView",
-			"order_address",
-			"\"",
-			"item_it",
-			"trydjango18",
-			"questions_notification",
-			"app.task",
-			"needs_rep",
-			"sendgrid",
-			"celerybeat-schedule.db",
-			"get_next_lecture",
-			"lecture_quiz_result",
-			"quiz",
-			"url",
-			"reverse",
-			"module-box",
-			"slug",
-			"lang",
-			"send_mail",
-			"get_user",
-			"ppe_4",
-			"as_view",
-			"\"join\"",
-			"saftey",
-			"Saftey Trianing i",
-			"Training on new pesticides prior to first use",
-			"transaction",
-			"render_to",
-			"render_to_pdf",
-			"render_to",
-			"DeleteView",
-			"welcome_",
-			"welcome",
-			"all.html",
-			"$.ajax",
-			"ajax",
-			"wistia",
-			"upload",
-			"review",
-			"review now",
-			"review_chemicals",
-			"lectures_admin",
-			"upload_bulk",
-			"ChemicalsViewAdmin",
-			"filter(active=F",
-			"active",
-			"LectureQuizAdminView",
-			"formview",
-			"$.ajax",
-			"ajax",
-			"clean",
-			"keep",
-			"questionanswer",
-			"initial",
-			"get_lecture",
-			"slug",
-			"LectureDetailView",
-			"get_lecture",
-			"get_next_lecture",
-			"lecture_quiz",
-			"edit_lecture",
-			"single_lecture",
-			"single",
-			"form.as",
-			"question.as",
-			"question",
-			"method",
-			"csv",
-			"ceu",
-			"login",
-			"easy",
-			"grand",
-			"pricing",
-			"cost",
-			"paginator",
-			"question",
-			"lecturequestion",
-			"question",
-			"next",
-			"take_quiz"
+			"Post"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -966,6 +863,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"{% endblock body_block %}",
+			"{% block body_block %}",
 			"blog",
 			"jmitch=#",
 			"'",
@@ -992,359 +891,8 @@
 	"groups":
 	[
 		{
-			"selected": 12,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "templates/library/base.html",
-					"settings":
-					{
-						"buffer_size": 1331,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								801,
-								801
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/library/cats.html",
-					"settings":
-					{
-						"buffer_size": 338,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								43,
-								43
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "polls/models.py",
-					"settings":
-					{
-						"buffer_size": 1013,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1013,
-								1013
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 594.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "polls/admin.py",
-					"settings":
-					{
-						"buffer_size": 517,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								516,
-								516
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "templates/polls/detail.html",
-					"settings":
-					{
-						"buffer_size": 1414,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1414,
-								1414
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 396.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "templates/library/post_create.html",
-					"settings":
-					{
-						"buffer_size": 687,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								502,
-								502
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 198.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "library/views.py",
-					"settings":
-					{
-						"buffer_size": 3188,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2294,
-								2294
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 30.0,
-						"translation.y": 1188.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "templates/portfolio/projects.html",
-					"settings":
-					{
-						"buffer_size": 613,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								517,
-								517
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "blog/models.py",
-					"settings":
-					{
-						"buffer_size": 3658,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								498,
-								498
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 198.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "blog/urls.py",
-					"settings":
-					{
-						"buffer_size": 501,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								501,
-								501
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "blog/forms.py",
-					"settings":
-					{
-						"buffer_size": 439,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								439,
-								439
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "blog/admin.py",
-					"settings":
-					{
-						"buffer_size": 389,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								347,
-								347
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "blog/views.py",
-					"settings":
-					{
-						"buffer_size": 3287,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								340,
-								340
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 594.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

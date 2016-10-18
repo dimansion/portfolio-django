@@ -196,6 +196,11 @@ html.js,
 
 /* Menu button */
 
+.btn-custom {
+	background-color: #fff;
+	opacity: 0.5;
+}
+
 .menu-button {
 	position: absolute;
 	z-index: 1000;

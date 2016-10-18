@@ -140,8 +140,8 @@
 
 	// opens the menu
 	function openMenu() {
-		// toggle the menu button
-		classie.add(menuCtrl, 'menu-button--open')
+		// toggle the menu button 
+		classie.add(menuCtrl, 'menu-button--open');
 		// stack gets the class "pages-stack--open" to add the transitions
 		classie.add(stack, 'pages-stack--open');
 		// reveal the menu
