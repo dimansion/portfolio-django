@@ -52,6 +52,8 @@ INSTALLED_APPS = [
     'gallery',
     'polls',
     'library',
+    'analytics',
+    'shortener',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
@@ -146,3 +148,6 @@ STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_cdn")
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+SHORTCODE_MAX = 15
+SHORTCODE_MIN = 7

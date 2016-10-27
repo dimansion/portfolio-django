@@ -1,0 +1,38 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block head_title %}
+Short-it
+{% endblock head_title %}
+
+{% block post_detail_link %}
+<li><a href="#">short-it</a></li>
+{% endblock %}
+
+{% block styles %}
+<style>
+body {
+      background-color: #226268;
+      {% if bg_image %}background-image: url({{ bg_image }});{% endif %}
+      background-size: cover;
+    }
+.btn-link {
+      color: #50dfec;
+      text-shadow: none;
+    }
+    .btn-link:hover {
+      color: #000000;
+    }
+</style>
+
+{% endblock styles %}
+{% block content %}
+<div class='col-sm-6 col-sm-offset-3'>
+      <p class='lead'>Shorten URL</p>
+  <p class="lead">
+     <form method='POST' action='.'> {% csrf_token %}
+        {{ form|crispy }}
+        <input class='btn btn-primary' type='submit' value='Short-it &raquo;' >
+    </form>            
+  </p>
+</div>
+{% endblock content %}

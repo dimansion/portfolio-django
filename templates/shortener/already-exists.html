@@ -1,0 +1,21 @@
+{% extends "blog/base.html" %}
+
+{% block head_title %}
+{{ object.shortcode }}
+{% endblock head_title %}
+
+{% block post_detail_link %}
+<li><a href="#">short-it</a></li>
+{% endblock %}
+
+{% block content %}
+<div class='col-md-6 col-md-offset-3'>
+    <h1>Ooops, It's already exist</h1>
+    <p>{{ object.url }}</p>
+    {% if object.clickevent.count %} 
+        <p>Count: {{ object.clickevent.count }}</p> 
+    {% endif %}
+    <p><a class='btn btn-link'  href='{{ object.get_short_url }}'>{{ object.get_short_url }}</a></p>
+    <a class='btn btn-default' href='{% url "shortener:short" %}'>+ New</a>
+</div>
+{% endblock content %}

@@ -13,6 +13,7 @@ urlpatterns = [
     url(r'^polls/', include('polls.urls', namespace='polls')),
     url(r'^library/', include('library.urls', namespace='library')),
     url(r'^logout/$', auth_view.logout, name='logout', kwargs={'next_page': '/'}),
+    url(r'^s/', include('shortener.urls', namespace='shortener')),
 ]
 
 if settings.DEBUG:
