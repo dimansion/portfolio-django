@@ -1,6 +1,8 @@
 {% extends "blog/base.html" %}
+{% load staticfiles %}
 {% load library_extras %} 
 {% block head_title %}Library{% endblock head_title %}
+{% block head_extra %}<link rel='stylesheet' href='{% static "css/book.css" %}' />{% endblock head_extra %}
 {% block post_detail_link %}
 <li><a href='{% url "library:index" %}'>Library</a></li>
 {% endblock %}
@@ -37,10 +39,10 @@
             </div>
             <!--/.well -->    
         <!--/span-->
-        <div class="col-sm-6 col-sm-offset-3">
+        
             {% block body_block %}
             {% endblock %}
-        </div>
+
         <!--/span-->
     </div>
     <!--/row-->
