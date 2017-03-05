@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'library',
     'analytics',
     'shortener',
+    'company'
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'

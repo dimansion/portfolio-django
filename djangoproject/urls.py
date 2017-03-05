@@ -8,6 +8,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('portfolio.urls', namespace='portfolio')),
     url(r'^blog/', include("blog.urls", namespace='blog')),
+    url(r'^company/', include("company.urls", namespace='company')),
     url(r'^todo/', include('todo.urls', namespace='todo')),
     url(r'^gallery/', include('gallery.urls', namespace='gallery')),
     url(r'^polls/', include('polls.urls', namespace='polls')),
